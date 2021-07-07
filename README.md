@@ -1,6 +1,10 @@
 # nlp_vs_humans
 Experiment to compare how NLP models see text compared with humans
 
+## Articles
+
+This project was written up as two articles on Towards Data Science:[Part 1](https://towardsdatascience.com/are-we-thinking-what-theyre-thinking-d1224445bbb9) and [Part 2](https://medium.com/@j_casswell/are-we-thinking-what-theyre-thinking-part-2-65921e9c46b0)
+
 ## Overview
 
 In a [previous project](https://github.com/jaycee14/tv_sentiment) I was using NLP to detect sentiment and then interrogating the model to tell me why it had come to each conclusion; by showing which words it had considered positive & negative. It provoked the question - is this the same way a human would interpret the same words? As NLP grows in influence,and thinking with a business hat on, it seemed like it would be good to know how the model was viewing the input and were some models and methods better at getting a human perspective that others. The model has learnt from a source of data - does that source agree with you, your customers or the world in general. Who knows [what has been teaching](https://en.wikipedia.org/wiki/Tay_(bot)) your model.
@@ -26,4 +30,9 @@ For input data I was using tweets about television shows that had been previousl
 
 ## Phase 2 - Reviewing Data
 
-TBC
+Added: 
+
+* results file (results_2020_11_15.json)
+* Notebooks to process the tweets through two models (Captum for LSTM and Captum BERT)
+* Notebook to clean up the selected worlds (clean human words)
+* Notebook to combine the data sets and review the results (process results) 
